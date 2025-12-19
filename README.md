@@ -34,4 +34,5 @@ Para rodar este projeto na sua máquina:
 3. Navegue até a pasta `src/main` e execute o arquivo `Main.java`.
 
 ---
-*Desenvolvido por Osvaldi de Jesus de Lima Filho como parte de sua jornada de aprendizado na PUCPR.*
+
+*Desenvolvido por Osvaldi Jesus como parte de sua jornada de aprendizado na PUCPR.*
