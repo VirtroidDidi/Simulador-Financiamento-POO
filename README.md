@@ -1,18 +1,37 @@
-## Getting Started
+# Simulador de Financiamento - Java POO ☕
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um sistema de simulação de financiamentos imobiliários desenvolvido em Java. Ele foi criado como trabalho final da disciplina de **Fundamentos da Programação Orientada a Objetos** no curso de Análise e Desenvolvimento de Sistemas da **PUCPR**.
 
-## Folder Structure
+## 📝 Sobre o Projeto
 
-The workspace contains two folders by default, where:
+Este foi um dos meus primeiros contatos profundos com a linguagem Java. O objetivo era aplicar na prática os conceitos estudados em sala de aula para construir um software funcional capaz de simular financiamentos de Casas, Apartamentos e Terrenos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Fiquei muito feliz com o resultado final, pois o projeto atendeu a todos os requisitos propostos e obtive a nota máxima (**10/10**) na avaliação.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Funcionalidades e Conceitos Aplicados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Durante o desenvolvimento, busquei aplicar os 4 pilares da POO e outras técnicas importantes:
 
-## Dependency Management
+* **Abstração e Herança:** Uso da classe abstrata `Financiamento` como base para `Casa`, `Apartamento` e `Terreno`.
+* **Polimorfismo:** Tratamento genérico dos diferentes tipos de imóveis em listas.
+* **Encapsulamento:** Proteção dos atributos com modificadores de acesso e métodos Getters/Setters.
+* **Tratamento de Exceções:** Criação de uma exceção personalizada (`AumentoMaiorDoQueJurosException`) para regras de negócio específicas.
+* **Persistência de Dados:**
+    * Leitura e escrita de arquivos de texto (`.txt`).
+    * Serialização de objetos Java (`.ser`) para salvar o estado da aplicação.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Tecnologias Utilizadas
+
+* Java (JDK)
+* VS Code (IDE)
+
+## 📂 Como executar
+
+Para rodar este projeto na sua máquina:
+
+1. Clone o repositório.
+2. Abra a pasta no VS Code ou sua IDE de preferência.
+3. Navegue até a pasta `src/main` e execute o arquivo `Main.java`.
+
+---
+*Desenvolvido por Osvaldi de Jesus de Lima Filho como parte de sua jornada de aprendizado na PUCPR.*
